@@ -1,19 +1,20 @@
 <?php
 error_reporting(E_ALL ^E_NOTICE);
 /**
- * Sample
+ * Config file for facebook page tracking
  *
  * @author Yuki Matsukura <matsubokkuri@gmail.com>
  * @version 1.0
  */
 /**
  * Sample class
- * 
+ *
  */
-class Config
+class config
 {
     private static $url = array(
-            'Rage of Bahamut' => 'http://www.facebook.com/pages/Rage-of-Bahamut/258363937574729?sk=likes',
+        // url is invalid.
+//            'Rage of Bahamut' => 'https://www.facebook.com/pages/Rage-of-Bahamut/258363937574729?id=258363937574729&sk=likes',
             'GREE'            => 'https://www.facebook.com/GREEofficial/likes',
             'Pirates Age'     => 'https://www.facebook.com/GREE.PiratesAge.en/likes',
             'Crime City'      => 'https://www.facebook.com/crimecity/likes',
@@ -26,12 +27,12 @@ class Config
             'テラレン！'      => 'https://www.facebook.com/teraren/likes',
             'Galaxy Life : Pocket Adventures'   => 'https://www.facebook.com/GalaxyLifePocketAdventures/likes',
             'ユナイテッドアローズ グリーンレーベル リラクシング'   => 'https://www.facebook.com/UA.glr/likes',
-            'ONE PIECE'   => 'https://www.facebook.com/oppirates/likes',
+            'ONE PIECE'         => 'https://www.facebook.com/oppirates/likes',
             'anime-bookmark'    => 'https://www.facebook.com/anime.bookmark/likes',
         );
     /**
-     * getURLArray 
-     * 
+     * getURLArray
+     *
      * @static
      * @access public
      * @return void
@@ -42,9 +43,9 @@ class Config
     }
 
     /**
-     * getFromName 
-     * 
-     * @param mixed $name 
+     * getFromName
+     *
+     * @param mixed $name
      * @static
      * @access public
      * @return void
@@ -54,8 +55,4 @@ class Config
         return self::$url[$name];
     }
 
-
 }
-
-
-

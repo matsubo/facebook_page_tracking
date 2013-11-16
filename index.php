@@ -33,7 +33,7 @@ require_once('config.php');
 					<a class="brand" href="#">Facebook's page tracking.</a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li class="active"><a href="/facebook/page_tracking/">Home</a></li>
+							<li class="active"><a href="index.php">Home</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
@@ -48,7 +48,7 @@ require_once('config.php');
 				<ul>
                     <li>"Raw data" format is TSV so you can copy and past the data to Excel directory or you can use the URL as web query source. </li>
                     <li>Data is acquired every 2am JST.</li>
-                    <li>If you 'd like to add facebook page to track, please add the setting to <a href="https://git.gree-dev.net/yuki-matsukura/gree/blob/master/facebook/page_tracking/config.php">this file</a> and send me a pull request via github.</li>
+                    <li>If you 'd like to add Facebook page to track, please add the setting to <a href="https://github.com/matsubo/facebook_page_tracking/blob/master/config.php">this config file</a> and send me a pull request via github.</li>
                 </ul>
                 </div>
 

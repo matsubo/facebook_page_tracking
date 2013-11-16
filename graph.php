@@ -31,7 +31,7 @@
 					<a class="brand" href="#">Facebook's page tracking.</a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
-							<li class="active"><a href="/facebook/page_tracking/">Home</a></li>
+							<li class="active"><a href="index.php">Home</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
