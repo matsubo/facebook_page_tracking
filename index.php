@@ -42,7 +42,7 @@ require_once('config.php');
 
 		<div class="container">
 
-			<h1>Data tracker for <img src="http://greezo.dev.gree.jp/img/881a05c41288c8966407ec950bc9579b.png" height="20" width="100" /> Page</h1>
+			<h1><img src="img/png/FB-f-Logo__blue_29.png" alt="facebook" /> Data tracker for Facebook Page</h1>
 
                 <div class="alert alert-info">
 				<ul>
