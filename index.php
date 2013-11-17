@@ -58,7 +58,7 @@ require_once('config.php');
 <table class="table table-striped">
 <?php foreach(Config::getURLArray() as $name => $url) { ?>
 <tr>
-<th style="text-align: left"><?= $name ?> <a href="http://wiki.dev.gree.jp/rd.php?url=<?php print urlencode($url); ?>" target="_blank"><i class="icon-home"></i></a></th>
+<th style="text-align: left"><?= $name ?> <a href="<?php print $url; ?>" target="_blank"><i class="icon-home"></i></a></th>
 	<td><a href="graph.php?name=<?= $name ?>" class="btn btn-success">Graph</a></td>
 	<td><a href="chart_data.php?name=<?= $name ?>" class="btn">Raw data</a></td>
 <!--

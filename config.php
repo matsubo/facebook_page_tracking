@@ -29,6 +29,18 @@ class Config
             'ユナイテッドアローズ グリーンレーベル リラクシング'   => 'https://www.facebook.com/UA.glr/likes',
             'ONE PIECE'         => 'https://www.facebook.com/oppirates/likes',
             'anime-bookmark'    => 'https://www.facebook.com/anime.bookmark/likes',
+            'Facebook Japan'    => 'https://www.facebook.com/FacebookJapan/likes',
+            'Facebook navi'     => 'https://www.facebook.com/fnavigation/likes',
+            'satisfaction guaranteed'     => 'https://www.facebook.com/japan.satisfactionguaranteed/likes',
+            'ParGolf / パーゴルフ' => 'https://www.facebook.com/pargolfonline/likes',
+            'BAD LAND' => 'https://www.facebook.com/BADLAND.Japan/likes',
+            'Pairs - ペアーズ' => 'https://www.facebook.com/pairs.lv/likes',
+            '楽天市場（Rakuten, Inc.）' => 'https://www.facebook.com/RakutenIchiba/likes',
+            'サッカー日本代表' => 'https://www.facebook.com/samuraiblue/likes',
+            'Music on Facebook Japan' => 'https://www.facebook.com/MoFBJ/likes',
+            'ソフトバンク（SoftBank）' => 'https://www.facebook.com/SoftBank/likes',
+            'tickit' => 'https://www.facebook.com/tickit.creyle/likes',
+
         );
     /**
      * getURLArray
