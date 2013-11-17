@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php 
+require_once('config.php');
+$name = $_REQUEST['name'];
+if (!Config::isValid($name)) {
+    die('invalid parameter');
+}
+?><!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -16,6 +22,8 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
+<?php include 'ga.html'; ?>
+
 	</head>
 
 	<body>
@@ -28,7 +36,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="#">Facebook's page tracking.</a>
+					<a class="brand" href="index.php">Facebook's page tracking.</a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
 							<li class="active"><a href="index.php">Home</a></li>
@@ -40,12 +48,18 @@
 
 		<div class="container">
 
-			<h1>Graph</h1>
+			<h1><?= $_REQUEST['name'] ?></h1>
 
-				<div id="graph"></div>
+				<div id="graph">Loading graph...</div>
 
+
+
+<div>
+<?php include 'footer.html'; ?>
+</div>
 
 		</div> <!-- /container -->
+
 
 		<!-- Le javascript
 		================================================== -->

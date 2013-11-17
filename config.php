@@ -10,7 +10,7 @@ error_reporting(E_ALL ^E_NOTICE);
  * Sample class
  *
  */
-class config
+class Config
 {
     private static $url = array(
         // url is invalid.
@@ -54,5 +54,10 @@ class config
     {
         return self::$url[$name];
     }
+    public static function isValid($name)
+    {
+        return isset(self::$url[$name]) ? true : false;
+    }
+
 
 }

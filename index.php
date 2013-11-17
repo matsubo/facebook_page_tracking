@@ -18,6 +18,8 @@ require_once('config.php');
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
+<?php include 'ga.html'; ?>
+
 	</head>
 
 	<body>
@@ -30,7 +32,7 @@ require_once('config.php');
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="#">Facebook's page tracking.</a>
+					<a class="brand" href="index.php">Facebook's page tracking.</a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
 							<li class="active"><a href="index.php">Home</a></li>
@@ -68,6 +70,14 @@ require_once('config.php');
 </tr>
 <?php } ?>
 </table>
+
+
+
+
+
+<div>
+<?php include 'footer.html'; ?>
+</div>
 
 		</div> <!-- /container -->
 
